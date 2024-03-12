@@ -17,8 +17,8 @@ function App() {
         <Hero />
       </div>
       <Companies />
-      <Residencies/>
       <Value/>
+      <Residencies/>
       <Contact/>
       <GetStarted/>
       <Footer/>

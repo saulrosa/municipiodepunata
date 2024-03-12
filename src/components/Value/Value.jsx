@@ -28,15 +28,15 @@ const Value = () => {
 
         {/* right */}
         <div className="flexColStart v-right">
-          <span className="orangeText">Our Value</span>
+          <span className="orangeText">Municipio de</span>
 
-          <span className="primaryText">Value We Give to You</span>
+          <span className="primaryText">Punata</span>
 
           <span className="secondaryText">
-            We always ready to help by providijng the best services for you.
-            <br />
-            We beleive a good blace to live can make your life better
-          </span>
+          Punata es una ciudad y municipio de Bolivia, capital de la provincia de Punata en el departamento de Cochabamba.            <br />
+          Su nombre deriva del quechua y significa "altura o lugar alto". Es conocida por ser una de las mayores productoras de la chicha del Valle, bebida tradicional que se mantiene desde la época incaica, <br />
+          y también es conocida por la elaboración de los famosos rosquetes. Debido a esto se la conoce con el apodo de La Perla del Valle.
+                    </span>
 
           <Accordion
             className="accordion"

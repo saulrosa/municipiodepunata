@@ -9,6 +9,42 @@
     margin-top: 1.5rem;
     font-weight: 500;
 }
+.f-wrapper {
+    background-color: #f7f7f7;
+  }
+  
+  .f-container {
+    justify-content: space-between;
+  }
+  
+  .f-left img {
+    margin-bottom: 10px;
+  }
+  
+  .secondaryText {
+    font-size: 14px;
+    color: #666;
+    line-height: 1.5;
+  }
+  
+  .primaryText {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 10px;
+  }
+  
+  .f-menu {
+    margin-top: 10px;
+  }
+  
+  .f-menu span {
+    margin-right: 20px;
+    cursor: pointer;
+  }
+  
+  /* Add any additional styles as needed */
+  
 @media (max-width: 768px) {
     .f-container{
         justify-content: center;

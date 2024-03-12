@@ -10,8 +10,8 @@ const Residencies = () => {
     <div id="residencies" className="r-wrapper">
       <div className="paddings innerWidth r-container">
         <div className="flexColStart r-head">
-          <span className="orangeText">Best Choices</span>
-          <span className="primaryText">Popular Residencies</span>
+          <span className="orangeText">Nuestros </span>
+          <span className="primaryText">Proyectos</span>
         </div>
         <Swiper {...sliderSettings}>
           <SlideNextButton />
@@ -22,8 +22,6 @@ const Residencies = () => {
                 <img src={card.image} alt="home" />
 
                 <span className="secondaryText r-price">
-                  <span style={{ color: "orange" }}>$</span>
-                  <span>{card.price}</span>
                 </span>
                 <span className="primaryText">{card.name}</span>
                 <span className="secondaryText">{card.detail}</span>
